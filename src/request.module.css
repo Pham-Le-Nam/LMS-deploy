@@ -1,0 +1,170 @@
+.background{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 240, 245);
+    background-size: cover;
+    background-position: center;
+}
+
+.optionBox{
+    height: 64.4rem;
+    width: 19rem;
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 10px;
+    z-index: 2;
+    margin: 0;
+
+    transition: width 0.3s ease;
+    overflow: hidden;
+}
+
+.optionBoxCollapsed{
+    height: 64.4rem;
+    width: 6.7rem;
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 10px;
+    z-index: 2;
+    margin: 0;
+
+    transition: width 0.3s ease;
+    overflow: hidden;
+}
+
+.optionItem{
+    margin-top: 55px;
+    margin-left: 25px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.link{
+    color: rgb(83, 94, 126);
+    margin: 5px;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-size: 35px;
+    text-decoration-line: underline;
+}
+
+.toggleButton{    
+    cursor: pointer;
+    z-index: 1;
+    height: 60px;
+    width: 6em;
+
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 40px;
+    margin-left: 20px;
+
+    background-color: rgba(80, 84, 117, 0.4);
+    font-size: 10px;
+
+    z-index: 1;
+}
+
+.optionsIcon{
+    height: 40px;
+    width: 45px;
+}
+
+.icon{
+    height: 40px;
+    width: 45px;
+
+    margin: 5;
+}
+
+.requestContainer{
+    position: absolute;
+    top: 7%;
+    right: 0;
+
+    height: 93%;
+    width: 91%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.requestBox{
+    position: relative;
+    width: 97%;
+
+    margin-top: 3em;
+
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+
+    border-radius: 10px;
+}
+
+.requestTitle{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+
+    height: 3em;
+
+    margin-left: 10px;
+}
+
+.request{
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    border-top: 1px solid rgb(0, 0, 0);
+    height: 4em;
+}
+
+.requestDetail{
+    color: black;
+    font-size: 20px;
+
+    margin-left: 10px;
+    width: 50em;
+}
+
+.buttonContainer{
+    position: relative;
+    left: 32%;
+}
+
+.printButton{
+    background-color: rgb(79, 79, 192);
+}
+
+.removeButton{
+    background-color: rgb(221, 69, 69);
+}
+
+.historyDetail{
+    color: black;
+    font-size: 20px;
+
+    margin-left: 10px;
+    margin-right: 10em;
+    width: 10em;
+}

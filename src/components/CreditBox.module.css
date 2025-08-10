@@ -1,0 +1,22 @@
+.creditBox{
+    position: absolute;
+    left: 99%;
+    top: 98%;
+    transform: translate(-100%, -100%);
+
+    width: 13em;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    color: black;
+    font-weight: bold;
+
+    z-index: 3;
+}
