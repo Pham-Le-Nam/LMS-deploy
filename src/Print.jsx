@@ -9,7 +9,7 @@ import CreditBox from './components/CreditBox.jsx';
 import NormalMenu from "./components/normalmenu.jsx";
 import FileUpload from "./components/FileUpload.jsx";
 
-import styles from './Print.module.css';
+import styles from './print.module.css';
 
 import LogoutIcon from './assets/logout-icon.png';
 import HomeIcon from './assets/home-icon.png';
